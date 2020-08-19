@@ -5712,7 +5712,7 @@ tp-caption.Team-Thumb,
         #mc_embed_signup input[type="email"] {
             width: 160px;
         }
-    }
+    /* }
     #rev_slider_167_6 .uranus.tparrows {
         width: 50px;
         height: 50px;
@@ -5728,7 +5728,7 @@ tp-caption.Team-Thumb,
     }
     #rev_slider_167_6 .uranus.tparrows:hover:before {
         opacity: 0.75;
-    }
+    } */
     .tp-caption.FullSiteBlock-SubTitle,
     .FullSiteBlock-SubTitle {
         color: rgba(51, 51, 51, 1.00);
