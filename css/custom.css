@@ -1,0 +1,44 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+	font-weight: 300;
+	color: rgb(85, 85, 85);
+	margin-bottom: 15px;
+}
+
+div.emphasis-title.bottommargin-sm h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #333;
+	
+}
+span.before-heading {
+	font-size: 13px;
+	color: #F8931F;
+	text-transform: uppercase;
+	font-family: 'Istok Web', sans-serif;
+}
+#modified-list div.mt-md-3 {
+	padding-left: 25%;
+}
+#middle-container {
+	margin-top: 10%;
+}
+
+footer.color {
+	font-size: 0.7em;
+	color: #F8931F;
+	text-transform: uppercase;
+	font-family: 'Istok Web', sans-serif;
+}
