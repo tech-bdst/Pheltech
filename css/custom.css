@@ -33,7 +33,7 @@ span.before-heading {
 	padding-left: 25%;
 }
 #middle-container {
-	margin-top: 10%;
+	margin-bottom: 8%;
 }
 
 footer.color {
@@ -41,6 +41,15 @@ footer.color {
 	color: #F8931F;
 	text-transform: uppercase;
 	font-family: 'Istok Web', sans-serif;
+}
+
+#client-carousel {
+	margin-top:10%  ;
+	margin-bottom: 10%;
+}
+#app-features {
+	margin-top: 5% !important ;
+	margin-bottom: 10% !important;
 }
 
 /* Floating Contact
@@ -186,4 +195,36 @@ body:not(.floating-contact-processing) .floating-contact-loader { display: none;
 	}
 
 	.floating-contact-wrap .floating-contact-box { width: 330px; }
+}
+
+
+/* Media Queries */
+
+@media (min-width: 768px){
+
+.col-md-12 {
+	margin-top: 1%;
+	margin-bottom: 2%;
+    
+}
+#middle-container {
+	padding: 0 5% 5% 5%;
+}
+#about-us {
+	padding: 0 5% 5% 5% !important;
+}
+#about-us div.nosotros {
+	padding-left: 0!important;
+}
+}
+
+@media (min-width: 320px){
+	div.emphasis-title.bottommargin-sm h2  {
+	 font-size: 1.8em !important;
+ }
+ #about-us div.nosotros {
+	padding-left: 15px!important;
+	padding-right: 15px;
+}
+
 }
