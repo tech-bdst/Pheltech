@@ -144,7 +144,7 @@
 		            	<!-- MAIN IMAGE -->
 		            	<img src="include/rs-plugin/demos/assets/images/transparent.png" data-bgcolor='#FFFFFF'
 		            		style='background:#043249' alt="Image" data-bgposition="center center" data-bgfit="cover"
-		            		data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		            		data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina >
 		            	<!-- LAYERS -->
 
 		            	<!-- LAYER NR. 1 -->
@@ -423,9 +423,21 @@
 		============================================= -->
 			<!-- <div class="line"></div> -->
 			<div id="client-carousel" class="container clearfix">
+				<div class="heading-block border-bottom-0 center mx-auto mb-0" style="max-width: 550px">
+
+
+					<h2>CLIENTES SATISFECHOS</h2>
+					<div class="clear"></div>
+
+					<p>Un personal altamente calificado se encarga de desarrollar e
+						implementar diferentes soluciones ajustada a las necesidades de nuestros clientes.
+					</p>
+					
+				</div>
+			
 				<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100" data-loop="true"
 					data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3"
-					data-items-md="4" data-items-lg="5" data-items-xl="6">
+					data-items-md="4" data-items-lg="5" data-items-xl="6" style="padding-top: 3%;">
 
 					<div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
 					<div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
@@ -518,8 +530,80 @@
 
 		<section>
 			<div id="contact-form" class="center">
-				<h1>Formulario de contacto</h1>
-
+				<section id="map-overlay">
+					<div class="container">
+		
+						<div class="row">
+							<!-- Contact Form Overlay
+							============================================= -->
+							<div class="contact-form-overlay col-md-8 offset-md-2 p-5">
+		
+								<div class="fancy-title title-border">
+									<h3>Contactanos</h3>
+								</div>
+		
+								<div class="form-widget">
+		
+									<div class="form-result"></div>
+		
+									<!-- Contact Form
+									============================================= -->
+									<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post" enctype="multipart/form-data">
+		
+										<div class="col-md-6 form-group">
+											<label for="template-contactform-name">Nombre <small>*</small></label>
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+										</div>
+		
+										<div class="col-md-6 form-group">
+											<label for="template-contactform-phone">Telefono</label>
+											<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+										</div>
+		
+										<div class="w-100"></div>
+		
+									
+		
+										<div class="w-100"></div>
+		
+										<div class="col-md-12 form-group">
+											<label for="template-contactform-subject">Asunto <small>*</small></label>
+											<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+										</div>
+		
+									
+		
+										<div class="w-100"></div>
+		
+										<div class="col-12 form-group">
+											<label for="template-contactform-message">Mensaje <small>*</small></label>
+											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+										</div>
+		
+										<div class="col-12 form-group d-none">
+											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+										</div>
+		
+										<div class="col-12 form-group">
+											<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar Mensaje</button>
+										</div>
+		
+										<input type="hidden" name="prefix" value="template-contactform-">
+		
+									</form>
+								</div>
+		
+								<div class="line"></div>		
+								
+							</div><!-- Contact Form Overlay End -->
+						</div>
+		
+					</div>
+		
+					<!-- Google Map
+					============================================= -->
+					<section class="gmap" data-address="Melbourne, Australia" data-scrollwheel="false" data-markers='[{address: "Melbourne, Australia", html: "<div class=\"p-2\" style=\"width: 300px;\"><h4 class=\"mb-2\">Hi! We are <span>Envato!</span></h4><p class=\"mb-0\" style=\"font-size:1rem;\">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day.</p></div>", icon:{ image: "images/icons/map-icon-red.png", iconsize: [32, 39], iconanchor: [32,39] } }]'></section>
+				</section><!-- Contact Form & Map Overlay Section End -->
 			</div>
 
 		</section>
