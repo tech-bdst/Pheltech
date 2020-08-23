@@ -63,7 +63,10 @@ div#oc-clients{
 	margin-bottom: 5%!important;
 }
 
-
+section#content{
+	z-index: 30;
+	margin-top: -5%;
+}
 /* Floating Contact
 -----------------------------------------------------------------*/
 .floating-contact-wrap {

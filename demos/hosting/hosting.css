@@ -340,7 +340,7 @@
 	}
 }
 
-.iconlist li:not(:first-child) { margin-top: 8px; }
+.iconlist li:not(:first-child) { margin-top: 0 }
 .iconlist li img {
 	position: relative;
 	margin-top: -2px;
