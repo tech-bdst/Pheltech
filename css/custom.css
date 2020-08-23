@@ -54,6 +54,15 @@ footer.color {
 div#about-us.container.clearfix {
 	margin-bottom: 5%!important;
 }
+img.heading-icon {
+	position: relative;
+	left: 46%;
+}
+
+div#oc-clients{
+	margin-bottom: 5%!important;
+}
+
 
 /* Floating Contact
 -----------------------------------------------------------------*/
