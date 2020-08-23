@@ -12,6 +12,8 @@ p {
 	font-weight: 300;
 	color: rgb(85, 85, 85);
 	margin-bottom: 15px;
+	text-align: justify;
+  	text-justify: auto;
 }
 
 div.emphasis-title.bottommargin-sm h2 {
