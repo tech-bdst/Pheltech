@@ -7004,9 +7004,7 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
-	.d-sm-none {
-		display: none !important;
-	}
+	
 	.d-sm-inline {
 		display: inline !important;
 	}
